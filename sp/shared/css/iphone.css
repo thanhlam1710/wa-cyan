@@ -1,0 +1,437 @@
+@charset "utf-8";
+/*=============================================
+ * body
+ *=============================================*/
+
+body {
+	color: #fff;
+	min-width: inherit;
+	max-height: 100%;
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	line-height: 32px;
+	font-size: 15px;
+	cursor: auto;
+	letter-spacing: 0.8px;
+	word-spacing: normal;
+	background: url(../img/shared/bg01.jpg) repeat center top;
+}
+body.navOpen {
+
+        overflow-y: hidden;
+        height: 100vh;
+        -webkit-overflow-scrolling: touch;
+  
+}
+.fnt-mincho {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "メイリオ", Meiryo, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.fnt-meiryo {
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.fnt-gothic {
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+.block::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+/*=============================================
+ * header
+ *=============================================*/
+section{
+	z-index: 0;
+	position: relative;
+}
+header .logo {
+	position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 90px;
+}
+header #belt {
+	position: fixed;
+	left: 0;
+	top: 0;
+	color: #fff;
+	width: 100%;
+	z-index: 9999;
+}
+header #hd_top {
+	background: url(../img/shared/bg-menu.png) repeat center top;
+	background-size: 100% 100%;
+	position: relative;
+	height: 85px;
+}
+header h1 {
+	font-size: 11px;
+	line-height: 14px;
+	text-align: right;
+	font-weight: normal;
+}
+/*====================== nav ====================== */
+
+header .topnavi {
+	position: absolute;
+	bottom: 8px;
+	right: 64px;
+	height: 54px;
+}
+header .topnavi li {
+	display: inline-block;
+	position: relative;
+	width: 55px;
+	margin-left: -5px;
+	vertical-align: top;
+}
+header .topnavi li a {
+	color: #fff;
+	font-size: 11px;
+	line-height: 23px;
+	text-align: center;
+	display: block;
+	height: 100%;
+	padding-top: 5px;
+	width: 100%;
+	text-shadow: 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524 , 0px 0px 3px #272524;
+
+}
+header .topnavi li a:hover {
+	text-decoration: none;
+}
+header .topnavi li a[class^="icon-"]:before {
+	display: block;
+	width: 100%;
+	padding-bottom: 4px;
+	font-size: 19px;
+	font-weight: normal;
+}
+header .menu_toggle {
+	background: url(../img/shared/bg-menu02.jpg) repeat center top;
+	background-size: auto;
+	padding-top: 85px;
+	z-index: 99;
+}
+header .menu_toggle.nav-style01 {
+	top: 0px;
+	right: -100%;
+	display: block;
+	transition: all 0.5s ease 0s;
+}
+.navOpen .menu_toggle.nav-style01 {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	right: 0;
+}
+header h1{
+	color: #fff;
+	position: relative;
+    z-index: 1;
+    font-size: 10px;
+}
+header .navBtn{
+	left: auto;
+	right: 1px;
+	color: #fff;
+	bottom: 8px;
+	z-index: 999;
+}
+header .navBtn span{
+	background: #fff;
+}
+header .menu_toggle li:first-child{
+	border-top: 2px solid #270900;
+}
+header .menu_toggle li{
+	border-bottom: 2px solid #270900;
+	padding-left: 0;
+	padding-right: 0;
+}
+header .menu_toggle li.on{
+	background: url(../img/shared/deco-menu.png) no-repeat top right, url(../img/shared/bg-menu.jpg) repeat center top;
+	background-size: 20%, auto;
+}
+header .menu_toggle a{
+	color: #fff;
+	font-weight: bold;
+}
+header .close_btn{
+	background-color: transparent;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*====================== end nav ====================== */
+
+/*====================== header key ====================== */
+
+header{
+	padding-top: 40px;
+}
+header #key {
+	position: relative;
+	z-index: 500;
+	overflow: hidden;
+}
+.bx-wrapper {
+	position: relative;
+}
+.bx-wrapper .bx-pager {
+	color: #ffee00;
+	font-family: Arial;
+	font-size: 0.85em;
+	font-weight: bold;
+	text-align: center;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	line-height: 10px;
+	bottom: 5%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	width: 100%;
+	z-index: 999;
+}
+.bx-controls-direction {
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -20px;
+	width: 100%;
+	z-index: 999;
+}
+.bx-wrapper .bx-controls-direction a {
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+	font-family: "fontello";
+	font-size: 40px;
+	height: 40px;
+	line-height: 40px;
+	outline: 0 none;
+	position: absolute;
+	text-indent: -9999px;
+	top: 0%;
+	width: 26px;
+	z-index: 99;
+}
+.bx-prev::after {
+	content: "";
+	left: 11px;
+	position: absolute;
+	text-indent: 0;
+	top: 0;
+}
+.bx-next::after {
+	content: "";
+	left: 0;
+	position: absolute;
+	text-indent: 0;
+	top: 0;
+}
+.bx-prev {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bx-next {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background-color: #756158;
+	border-radius: 5px;
+	display: block;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0 none;
+	text-indent: -9999px;
+	width: 10px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #fff none repeat scroll 0 0;
+}
+/*====================== end nav ====================== */
+
+
+/*=============================================*/
+/*                   　footer　　　　　          */
+/*=============================================*/
+
+
+footer {
+	background: #DBDADA;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 19px;
+}
+footer .shopinfo {
+	padding: 30px 2% 0;
+	position: relative;
+}
+footer .vcard {
+	padding: 0 2%;
+	margin-bottom: 5px;
+}
+footer .vcard dd {
+	padding-left: 20px;
+}
+#f_logo {
+	margin: 0 auto 5px;
+	width: 145px;
+}
+#f_tel {
+	width: 265px;
+	margin-bottom: 10px;
+}
+footer .banner li {
+	float: left;
+	width: 32%;
+	padding: 0 0.5%;
+}
+footer .link {
+	margin: 0 auto 0;
+	text-align: center;
+	width: 100%;
+	font-weight: normal;
+}
+footer .link p {
+	width: 45%;
+	min-width: 180px;
+	max-width: 210px;
+	margin: 15px auto 15px;
+	padding: 0 6px;
+	line-height: 30px;
+}
+footer .link p a {
+	background: transparent;
+	border: solid 1px #fff;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-size: 13px;
+	letter-spacing: 0;
+	padding: 3px 20px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: inset 0 0 1px #a8a398;
+}
+footer .link .link-pc a::before {
+	margin-right: 9px;
+}
+footer address {
+	line-height: 25px;
+	background: #1d1106;
+	color: #fff;
+	font-size: 10px;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: 10px -2% 0;
+}
+
+footer address a{
+ font-size: 10px;
+ display: block;
+ text-decoration: none;
+}
+
+
+.mb0 {
+	margin-bottom: 0;
+}
+.mb5 {
+	margin-bottom: 5px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.mb15 {
+	margin-bottom: 15px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.access_btn {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+.access_btn span {
+  display: block;
+  padding: 5% 2% 0;
+}
+.copied {
+    cursor: pointer;
+}
+#ft_group {
+	position: fixed;
+	opacity: 0;
+	z-index: -9999;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #000;
+	background-color: #000;
+	/*	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;*/
+}
+
+.has_nav  #ft_group {
+	position: fixed;
+	z-index: 99;
+	opacity: 1;
+}
+#ft_group .box {
+	padding: 10px 0;
+	background-color: transparent;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #fff;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1.7;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid #fff;
+	position: relative;
+}
+
+.ft_contact_tel dd {
+	font-size: 18px;
+}
+.ft_contact_tel .icon-phone-1:before {
+	padding-right: 10px;
+	
+}
+.contact_gr .ft_contact_tel dd {
+	font-size: 14px;
+} 
+.contact_gr .fl,.contact_gr .fr {
+	width: 49%;
+}
+
+.botan a{
+	margin: 10px 10px;
+	padding: 10px 0;
+	display: block;
+	color:#fff;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #970000;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	box-sizing:border-box;
+}

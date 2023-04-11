@@ -1,0 +1,247 @@
+#key {
+  background: url(../img/intro/key.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+#key .key_txt {
+  position: absolute;
+  top: 737px;
+  left: 110px;
+}
+
+#sec1 {
+  background: url(../img/intro/sec1_bg.png) no-repeat top center;
+  background-size: cover;
+  position: relative;
+}
+
+#sec1:after {
+  content: '';
+  background: url(../img/shared/line-footer.png) repeat-x top center;
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  right: 0;
+  height: 28px;
+  z-index: 1;
+}
+
+#sec1 h2 {
+  padding: 71px 0 72px 523px;
+}
+
+#sec1 .txt {
+  width: 200px;
+  height: 430px;
+  position: absolute;
+  top: 168px;
+  left: 311px;
+}
+
+#sec2 {
+  background: url(../img/intro/sec2_bg.png) no-repeat top center;
+  background-size: cover;
+  color: #000;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+#sec2:before {
+  content: '';
+  background: url(../img/intro/sec2_bg2.png) no-repeat top center;
+  background-size: cover;
+  position: absolute;
+  top: 735px;
+  left: 0;
+  right: 0;
+  height: 1150px;
+}
+
+#sec2:after {
+  content: url(../img/intro/sec2_deco.png);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+#sec2 h2 {
+  padding-top: 18px;
+  text-align: center;
+}
+
+#sec2 .info1 {
+  position: relative;
+  padding-bottom: 276px;
+}
+
+#sec2 .info1 .ttl1 {
+  padding-left: 185px;
+}
+
+#sec2 .info1 .txt {
+  padding: 2px 0 4px 196px;
+}
+
+#sec2 .info1 .bnr {
+  padding-left: 170px;
+}
+
+#sec2 .info1 .catch {
+  position: absolute;
+  top: -12px;
+  left: -31px;
+}
+
+#sec2 .info1 .photo {
+  position: absolute;
+  bottom: 2px;
+  left: -346px;
+}
+
+#sec2 .info2 {
+  position: relative;
+  padding-bottom: 45px;
+}
+
+#sec2 .info2 .ttl2 {
+  padding: 48px 0 0 285px;
+}
+
+#sec2 .info2 .txt {
+  padding: 10px 0 124px 350px;
+}
+
+#sec2 .info2 .bnr {
+  padding-left: 228px;
+}
+
+#sec2 .info2 .catch {
+  position: absolute;
+  top: -15px;
+  right: -38px;
+}
+
+#sec2 .info2 .photo {
+  position: absolute;
+  bottom: 17px;
+  left: -300px;
+}
+
+#sec2 .info3 {
+  position: relative;
+  z-index: 2;
+}
+
+#sec2 .info3 .ttl2 {
+  padding: 0px 0 32px 196px;
+}
+
+#sec2 .info3 .txt {
+  padding: 10px 0 124px 350px;
+}
+
+#sec2 .info3 .bnr {
+  position: absolute;
+  bottom: -28px;
+  right: -28px;
+}
+
+#sec2 .info3 .catch {
+  position: absolute;
+  top: -31px;
+  left: -36px;
+}
+
+#sec2 .info3 .box1 {
+  position: absolute;
+  width: 604px;
+  top: 114px;
+  left: 285px;
+}
+
+#sec2 .info3 .box1 .text {
+  padding: 10px 0 0 25px;
+  line-height: 25px;
+}
+
+#sec2 .info3 .box2 {
+  position: absolute;
+  width: 483px;
+  top: 766px;
+  left: 259px;
+}
+
+#sec2 .info3 .box2 .text {
+  padding: 10px 0 0 25px;
+  line-height: 25px;
+}
+
+#sec2 .info3 .box3 {
+  width: 483px;
+  margin-top: -10px;
+}
+
+#sec2 .info3 .box3 .text {
+  padding: 10px 0 0 25px;
+  line-height: 25px;
+}
+
+#sec3 {
+  background: url(../img/intro/sec3_bg.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+#sec3 h2 {
+  text-align: center;
+  padding: 70px 0 64px;
+}
+
+#sec4 {
+  padding: 81px 0 91px;
+}
+
+#sec4 .box {
+  background: url(../img/intro/sec4_bg_box.png) no-repeat top center;
+  width: 1208px;
+  height: 809px;
+  position: relative;
+  margin-left: -104px;
+}
+
+#sec4 .box h2 {
+  position: absolute;
+  top: -80px;
+  left: 90px;
+}
+
+#sec4 .box h3 {
+  position: absolute;
+  top: 43px;
+  right: 154px;
+}
+
+#sec4 .box h4 {
+  position: absolute;
+  top: 258px;
+  left: 340px;
+}
+
+#sec4 .box .deco {
+  position: absolute;
+  top: 271px;
+  right: 95px;
+  z-index: 2;
+}
+
+#sec4 .box .inner {
+  background: rgba(164, 10, 10, 0.8);
+  width: 560px;
+  position: absolute;
+  bottom: 35px;
+  right: 45px;
+}
+
+#sec4 .box .inner .txt {
+  padding: 36px 0 46px 59px;
+}

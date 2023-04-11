@@ -1,0 +1,1390 @@
+@charset "UTF-8";
+/*=============================================*/
+/*                   　index　　　　　          */
+/*=============================================*/
+img {
+  width: 100%;
+}
+
+.text {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+#index #key .txt_key {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 80%;
+}
+
+#index #key .txt01 {
+  bottom: 20%;
+  right: 2%;
+  width: 90%;
+}
+
+#index #key .btn {
+  position: absolute;
+  width: 90%;
+  bottom: 3%;
+  right: 2%;
+}
+
+#index #sec01 {
+  padding-top: 10%;
+  padding-bottom: 55%;
+  box-shadow: 0 0 10px #000;
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/shared/line01.png) repeat-x center bottom, url(../img/index/s1-02-bg.png) no-repeat right bottom, url(../img/index/s1-01-bg.png) no-repeat center top, url(../img/shared/bg02.jpg) repeat center top;
+  background-size: 100%, 100%, 100%, 100%, auto;
+}
+
+#index #sec02 {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background: url(../img/shared/bg06-top.jpg) repeat-x center top, url(../img/shared/bg06.jpg) repeat center top;
+  background-size: 100%, auto;
+}
+
+#index #sec02 h2 {
+  margin-bottom: 5%;
+}
+
+#index #sec02 .bx-pager {
+  position: relative;
+  margin-top: 5%;
+}
+
+#index #sec02 .text {
+  color: #441703;
+}
+
+#index #sec03 h2 {
+  margin: 0 2% 5%;
+}
+
+#index #sec03 .text {
+  margin: 5%;
+}
+
+#index #sec04 {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background: url(../img/shared/s4-deco.png) repeat-x top right, url(../img/shared/bg04.jpg) repeat center top;
+  background-size: 100%, auto;
+}
+
+#index #sec04 h2 {
+  margin-bottom: 5%;
+}
+
+#index #sec04 .box {
+  background: url(../img/shared/dot.png) no-repeat 1% 99%, url(../img/shared/dot.png) no-repeat 99% 99%, url(../img/shared/dot.png) no-repeat 99% 5px, url(../img/shared/dot.png) no-repeat 1% 5px, url(../img/shared/bg05.jpg) repeat center top;
+  padding: 10% 3% 5%;
+}
+
+#index #sec04 .box #feed span {
+  width: auto !important;
+  height: 0 !important;
+  padding-top: 75%;
+}
+
+#index #sec04 .box #feed dl {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+}
+
+#index #sec04 .box #feed dl .date {
+  margin-top: 10px;
+  border-bottom: 2px solid #000;
+}
+
+#index .oshirase{
+width: 96%;
+margin:10px auto;
+background-color: rgba(253,217,161,0.8);
+padding: 15px 0;
+color:#630;
+text-shadow: 0px 0px 5px rgba(146,119,83,0.5);
+}
+#index .oshirase .tit{
+text-align: center;
+font-size: 20px;
+border-bottom: solid 1px #5B0809;
+padding-bottom: .4em;
+font-weight: bold;
+}
+#index .oshirase .txtx{
+padding: 10px 10px 0 10px;
+	font-size: 15px;
+	line-height: 28px;
+}
+
+#index .oshirase .txtx span{
+color:#940000;
+}
+
+footer {
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/shared/bg-top-footer.jpg) repeat-x center top, url(../img/shared/bg-footer.jpg) repeat center top;
+  background-size: 100%, 100%, auto;
+  padding-bottom: 80px;
+}
+
+footer .f_logo {
+  width: 120px;
+  margin: 0 auto 20px;
+}
+
+footer .vcard {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  letter-spacing: 0.7px;
+  line-height: 32px;
+}
+
+#ft_group .box p {
+  width: 180px;
+  margin: 0 auto;
+}
+
+#pagetop {
+  width: 70px;
+  bottom: 75px;
+}
+
+address {
+  margin-top: 20px;
+  padding: 10px 0;
+  background: url(../img/shared/bg-copyright.jpg) repeat center top;
+}
+
+/*=============================================*/
+/*                   　menu　　　　　          */
+/*=============================================*/
+.text-center {
+  text-align: center;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+#menu #key .txt_key {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 60%;
+}
+
+#menu #key .btn {
+  position: absolute;
+  width: 90%;
+  bottom: 3%;
+  right: 2%;
+}
+
+#menu #sec01 {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  box-shadow: 0 0 10px #000;
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/shared/line01.png) repeat-x center bottom, url(../img/menu/s1-bg.jpg) no-repeat center top;
+  background-size: 100%, 100%, cover;
+}
+
+#menu #sec02 {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+#menu #sec02 .group {
+  position: relative;
+}
+
+#menu #sec02 .group .btn-click {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+#menu #sec02 .btn {
+  margin-top: 5%;
+}
+
+#menu #sec02 .tabs-switch {
+  margin-top: 10px;
+}
+
+#menu #sec02 .tabs-switch .tab-link li {
+  position: absolute;
+  z-index: 1;
+}
+
+#menu #sec02 .tabs-switch .tab-link .li01 {
+  width: 16%;
+  height: 60%;
+  top: 35%;
+  left: 13%;
+}
+
+#menu #sec02 .tabs-switch .tab-link .li02 {
+  width: 16%;
+  height: 60%;
+  top: 35%;
+  left: 33%;
+}
+
+#menu #sec02 .tabs-switch .tab-link .li03 {
+  width: 16%;
+  height: 60%;
+  top: 35%;
+  right: 30%;
+}
+
+#menu #sec02 .tabs-switch .tab-link .li04 {
+  width: 16%;
+  height: 60%;
+  top: 35%;
+  right: 9%;
+}
+
+#menu #sec02 .tabs-switch .tab-content {
+  margin-top: -10%;
+}
+
+#menu #sec02 .tabs-switch .tab-content .box {
+  background: url(../img/shared/bg10.png) repeat center top;
+  margin: -5% 3% 0;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 5%;
+}
+
+#menu #sec02 .tabs-switch .tab-content h3 {
+  background: #000;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+#menu #sec02 .tabs-switch .tab-content .price {
+  font-size: 18px;
+  line-height: 35px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px 0 15px 15px;
+  color: #d51519;
+  font-weight: bold;
+}
+
+#menu #sec02 .tabs-switch .tab-content .text {
+  padding: 0 2%;
+  color: #000;
+}
+
+
+#menu #sec02 .nomi{
+	width: 96%;
+	margin:10px auto;
+	background-color: rgba(253,217,161,0.8);
+	padding: 15px 0;
+	color:#630;
+	text-shadow: 0px 0px 5px rgba(146,119,83,0.5);
+}
+#menu #sec02 .nomi .tit2{
+	text-align: center;
+	font-size: 22px;
+	border-bottom: solid 1px #5B0809;
+	padding-bottom: .4em;
+	font-weight: bold;
+}
+#menu #sec02 .nomi .txt{
+	padding: 10px 10px 0 10px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#menu #sec02 .nomi .txt span{
+	color:#940000;
+}
+
+
+
+
+#menu #sec03 {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background: url(../img/menu/s3-bg.png) no-repeat center top, url(../img/shared/bg06.jpg) repeat center top;
+  background-size: 100%, auto;
+}
+
+#menu #sec03 h2 {
+  margin-bottom: 5%;
+}
+#menu #sec03 .box {
+  margin: 10px 0;
+  background-color: rgba(255,255,255,0.8);
+  text-align: center;
+  padding: 15px 2%;
+  font-size: 18px;
+  color: #630;
+  text-shadow: 0px 0px 5px rgba(146,119,83,0.5);
+  font-weight: bold;
+  border: solid 2px #974100;
+}
+#menu #sec03 .photo {
+  width: 80%;
+  margin: 0 auto 5%;
+}
+
+#menu #sec03 dl dt {
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#menu #sec03 dl dd {
+  color: #e9cf9b;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  background-color: #000;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#menu #sec03 .bx-pager {
+  position: relative;
+  margin-top: 5%;
+}
+
+#menu #sec05 {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background: url(../img/shared/s5-bg.png) no-repeat center top;
+  background-size: 100%;
+}
+
+#menu #sec05 .toggle {
+  background: url(../img/shared/bg08.jpg) repeat center top;
+  background-size: 100%;
+  color: #000;
+}
+
+#menu #sec05 .toggle h3 {
+  line-height: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 15px 0 30px;
+}
+
+#menu #sec05 .toggle h3:after {
+  top: auto;
+  bottom: 10px;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  font-size: 16px;
+  color: #000;
+}
+
+#menu #sec05 .toggle .note {
+  font-size: 15px;
+}
+
+#menu #sec05 .toggle .toggle-main {
+  padding-bottom: 30px;
+}
+
+#menu #sec05 .toggle .toggle-main dl {
+  padding: 10px 0;
+  border-bottom: 4px double #000;
+}
+
+#menu #sec05 .toggle .toggle-main dl dt {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#menu #sec05 h4 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#menu #sec05 .text {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px 2%;
+}
+
+#menu #sec06 {
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/menu/s6-bg.jpg) no-repeat center top;
+  background-size: 100%, cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#menu #sec06 .price {
+  background: url(../img/menu/s6-price-bg.png) no-repeat center top;
+  background-size: contain;
+  padding: 5%;
+  width: 20%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+#menu #sec06 .btn {
+  margin-top: 5%;
+}
+
+#menu .bg {
+  background: url(../img/shared/bg04.jpg) repeat center top;
+  padding-top: 5%;
+  color: #000;
+}
+
+#menu #sec07 {
+  padding-bottom: 5%;
+}
+
+#menu #sec07 .toggle {
+  border: 2px solid #000;
+}
+
+#menu #sec07 .toggle .toggle-link {
+  padding: 2%;
+  text-align: center;
+}
+
+#menu #sec07 .toggle .toggle-link:after {
+  color: #000;
+}
+
+#menu #sec07 .toggle .toggle-link img {
+  width: 85%;
+}
+
+#menu #sec07 .toggle .toggle-main .text {
+  margin-top: 0;
+}
+
+#menu #sec07 .toggle .toggle-main .note2 {
+  border-top: 1px solid #000;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#menu #sec07 .toggle .toggle-main .note2 span {
+  color: #d51519;
+}
+
+#menu #sec07 .item {
+  margin-bottom: 30px;
+}
+
+#menu #sec07 .item h3 {
+  background-color: #000;
+  border-bottom: 5px solid #d50f0f;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#menu #sec07 .item ul li {
+  line-height: 23px;
+  padding: 12px 0 12px 10px;
+  border-bottom: 1px dotted #000;
+}
+
+#menu #sec07 .item ul li span {
+  color: #d51519;
+}
+
+#menu #sec07 .item .note_text {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 12px 0;
+}
+
+#menu #sec08 {
+  padding: 5% 2%;
+  margin-left: -2%;
+  margin-right: -2%;
+  background: url(../img/shared/bg09.png) repeat center top;
+}
+
+#menu #sec08 .toggle {
+  border: 2px solid #000;
+}
+
+#menu #sec08 .toggle .toggle-link {
+  padding: 2%;
+  text-align: center;
+}
+
+#menu #sec08 .toggle .toggle-link:after {
+  color: #000;
+}
+
+#menu #sec08 .toggle .toggle-link img {
+  width: 85%;
+}
+
+#menu #sec08 .toggle .toggle-main .text {
+  margin-top: 0;
+}
+
+#menu #sec08 .toggle .toggle-main .note2 {
+  border-top: 1px solid #000;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#menu #sec08 .toggle .toggle-main .note2 span {
+  color: #d51519;
+}
+
+#menu #sec08 .item {
+  margin-bottom: 30px;
+}
+
+#menu #sec08 .item h3 {
+  background-color: #000;
+  border-bottom: 5px solid #d50f0f;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#menu #sec08 .item ul li {
+  line-height: 23px;
+  padding: 12px 0 12px 10px;
+  border-bottom: 1px dotted #000;
+}
+
+#menu #sec08 .item ul li span {
+  color: #d51519;
+}
+
+#menu #sec08 .item .note_text {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 12px 0;
+}
+
+#menu #sec09 {
+  padding: 5% 2%;
+  margin-left: -2%;
+  margin-right: -2%;
+  background: url(../img/shared/bg09.png) repeat center top;
+}
+
+#menu #sec09 .toggle {
+  border: 2px solid #000;
+}
+
+#menu #sec09 .toggle .toggle-link {
+  padding: 2%;
+  text-align: center;
+}
+
+#menu #sec09 .toggle .toggle-link:after {
+  color: #000;
+}
+
+#menu #sec09 .toggle .toggle-link img {
+  width: 85%;
+}
+
+#menu #sec09 .toggle .toggle-main .text {
+  margin-top: 0;
+}
+
+#menu #sec09 .toggle .toggle-main .note2 {
+  border-top: 1px solid #000;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#menu #sec09 .toggle .toggle-main .note2 span {
+  color: #d51519;
+}
+
+#menu #sec09 .item {
+  margin-bottom: 30px;
+}
+
+#menu #sec09 .item h3 {
+  background-color: #000;
+  border-bottom: 5px solid #d50f0f;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#menu #sec09 .item ul li {
+  line-height: 23px;
+  padding: 12px 0 12px 10px;
+  border-bottom: 1px dotted #000;
+}
+
+#menu #sec09 .item ul li span {
+  color: #d51519;
+}
+
+#menu #sec09 .item .note_text {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 12px 0;
+}
+
+/*=============================================*/
+/*                   　party　　　　　          */
+/*=============================================*/
+#party #key .txt_key {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 60%;
+}
+
+#party #sec01 {
+  padding-bottom: 5%;
+}
+
+#party #sec01 h2 {
+  margin: 0 -2% -15%;
+}
+
+#party #sec01 .row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#party #sec01 .bx-wrapper .bx-pager {
+  bottom: auto;
+  top: 13%;
+}
+
+#party #sec01 .text {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 2%;
+}
+
+#party #sec01 .m-txt {
+  background: none;
+  padding: 0;
+}
+
+#party #sec02 {
+  background: url(../img/shared/bg11.png) repeat center top;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+#party #sec02 h2 {
+  margin-bottom: 5%;
+}
+
+#party #sec02 .map {
+  margin-bottom: 5%;
+}
+
+#party #sec02 h3 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#party #sec02 .photo {
+  margin: 0 0 -10%;
+}
+
+#party #sec03 {
+  background: url(../img/shared/bg12.jpg) repeat center top;
+  padding-top: 5%;
+  color: #000;
+}
+
+#party #sec03 h2 {
+  margin: 0 -2% 5%;
+}
+
+#party #sec03 .bg-circle {
+  margin-top: 5%;
+  background: url(../img/menu/s6-price-bg.png) no-repeat center top;
+  background-size: auto;
+}
+
+#party #sec03 .bg-circle h3 {
+  width: 55%;
+  margin: 0 auto;
+}
+
+#party #sec03 .bg-circle .price {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+  line-height: 26px;
+  color: #fff;
+}
+
+#party #sec03 .toggle {
+  border: 2px solid #000;
+  margin-bottom: 5%;
+}
+
+#party #sec03 .toggle .toggle-link {
+  background: #000;
+}
+
+#party #sec03 .toggle .boxtop {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 2% 30px;
+}
+
+#party #sec03 .toggle .boxtop:after {
+  top: auto;
+  bottom: 10px;
+  left: 50%;
+  right: 0;
+  transform: translateX(-50%);
+  font-size: 16px;
+}
+
+#party #sec03 .toggle .boxtop .ttl {
+  border-bottom: 4px double #fff;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#party #sec03 .toggle .boxtop .price {
+  color: #d51519;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+#party #sec03 .toggle .boxtop .price span {
+  font-size: 20px;
+}
+
+#party #sec03 .toggle .toggle-main {
+  background: url(../img/shared/bg09.png) repeat center top;
+  padding: 20px 2% 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#party #sec03 .toggle .toggle-main .note_text {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 12px 0;
+}
+
+#party #sec03 .info2 {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px 2%;
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+#party #sec03 .info2 .toggle {
+  margin-top: 5%;
+}
+
+#party #sec03 .info2 .btn-acc {
+  background: url(../img/shared/bg13.jpg) repeat center top;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 10px 0;
+  color: #fcd96d;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+#party #sec03 .info2 .btn-acc:after {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  line-height: 20px;
+  top: 50%;
+  right: 4%;
+  margin-top: -10px;
+  color: #FFF;
+  content: '\f13a';
+  font-size: 13px;
+}
+
+#party #sec03 .info2 .open:after {
+  content: '\f139';
+}
+
+#party #sec03 .info2 .scroll_box {
+  padding: 0 2%;
+}
+
+#party #sec03 .info3 {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 2%;
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+#party #sec03 .info3 .toggle {
+  margin-top: 5%;
+}
+
+#party #sec03 .info3 .btn-acc {
+  background: url(../img/shared/bg13.jpg) repeat center top;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 10px 0;
+  color: #fcd96d;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+#party #sec03 .info3 .btn-acc:after {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  line-height: 20px;
+  top: 50%;
+  right: 4%;
+  margin-top: -10px;
+  color: #FFF;
+  content: '\f13a';
+  font-size: 13px;
+}
+
+#party #sec03 .info3 .open:after {
+  content: '\f139';
+}
+
+#party #sec03 .info3 .scroll_box {
+  padding: 0 2%;
+}
+
+#party #sec04 {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  box-shadow: 0 0 10px #000;
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/shared/line01.png) repeat-x center bottom, url(../img/party/s4-bg.jpg) no-repeat center top;
+  background-size: 100%, 100%, cover;
+}
+
+#party #sec04 h2 {
+  width: 94%;
+  margin: 0 auto;
+  color: #fcd96d;
+  font-size: 7.2vmin;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 4px double #fff;
+  margin-bottom: 5%;
+}
+
+#party #sec04 .photo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#party .s4-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#party .s4-content .txt {
+  text-align: center;
+  padding-top: 18px;
+}
+
+#party .s4-content .txt li {
+  border: 1px solid #fff;
+  padding: 5px 0;
+  margin-bottom: 15px;
+}
+
+#party .s4-content .txt .none {
+  border: none;
+}
+
+#party #sec05 {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/party/s5-bg.png) repeat-x center top;
+  background-size: 100%, 100%;
+}
+
+#party #sec05 h2 {
+  width: 80%;
+  margin: 0 auto 5%;
+}
+
+#party #sec05 h3 {
+  background-color: #000;
+  border-bottom: 5px solid #d50f0f;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#party #sec05 h3 span {
+  color: #d51519;
+}
+
+#party #sec05 .toggle {
+  margin-bottom: 15px;
+}
+
+#party #sec05 .toggle-main ul li {
+  font-size: 15px;
+  line-height: 23px;
+  padding: 12px 0 12px 10px;
+  border-bottom: 1px dotted #fff;
+}
+
+#party #sec05 .note_text {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 12px 0;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+#party #sec05 .deco {
+  width: 110px;
+  margin-bottom: -35px;
+  position: relative;
+  z-index: 1;
+}
+
+/*=============================================*/
+/*                   　usually　　　　　          */
+/*=============================================*/
+#usually #key .txt_key {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 70%;
+}
+
+#usually #sec01 {
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/shared/line01.png) repeat-x center bottom, url(../img/usually/s1-bg.png) no-repeat center top;
+  background-size: 100%, 100%, 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#usually #sec01 .map {
+  margin-bottom: 5%;
+}
+
+#usually #sec01 .bx-controls-direction {
+  top: 40%;
+}
+
+#usually #sec01 .img {
+  margin-top: -10%;
+}
+
+#usually #sec01 .txt-box {
+  margin: -27% -2% 0;
+  background: url(../img/usually/s1-box.png) no-repeat center top;
+  background-size: cover;
+  padding: 32% 10% 12%;
+  color: #000;
+  position: relative;
+}
+
+#usually .bg {
+  background: url(../img/usually/s2-bg.png) no-repeat top right, url(../img/shared/bg06-top.jpg) no-repeat center top, url(../img/shared/bg06.jpg) repeat center top;
+  background-size: 100%, 100%, auto;
+  padding-bottom: 5%;
+}
+
+#usually #sec02 {
+  padding-top: 5%;
+}
+
+#usually #sec02 h2 {
+  margin-bottom: 5%;
+}
+
+#usually #sec02 .group {
+  position: relative;
+}
+
+#usually #sec02 .tabs-switch {
+  margin-top: 10px;
+}
+
+#usually #sec02 .tabs-switch .tab-link li {
+  position: absolute;
+  z-index: 1;
+}
+
+#usually #sec02 .tabs-switch .tab-link .li01 {
+  width: 24%;
+  height: 73%;
+  top: 10%;
+  left: 3%;
+  border-radius: 50%;
+}
+
+#usually #sec02 .tabs-switch .tab-link .li02 {
+  width: 24%;
+  height: 73%;
+  top: 10%;
+  left: 28%;
+  border-radius: 50%;
+}
+
+#usually #sec02 .tabs-switch .tab-link .li03 {
+  width: 24%;
+  height: 73%;
+  top: 10%;
+  right: 23%;
+  border-radius: 50%;
+}
+
+#usually #sec02 .tabs-switch .tab-link .li04 {
+  width: 24%;
+  height: 73%;
+  top: 10%;
+  right: -1%;
+  border-radius: 50%;
+}
+
+#usually #sec02 .tabs-switch .tab-content .box {
+  background: url(../img/shared/bg10.png) repeat center top;
+  margin: -5% 3% 0;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 5%;
+}
+
+#usually #sec02 .tabs-switch .tab-content h3 {
+  background: #000;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 2%;
+}
+
+#usually #sec02 .tabs-switch .tab-content h3 span {
+  font-size: 14px;
+}
+
+#usually #sec02 .tabs-switch .tab-content .price {
+  font-size: 18px;
+  line-height: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px 0;
+  color: #d51519;
+  font-weight: bold;
+  text-align: center;
+}
+
+#usually #sec02 .tabs-switch .tab-content .price span {
+  font-size: 14px;
+}
+
+#usually #sec02 .tabs-switch .tab-content .text {
+  padding: 0 2%;
+  color: #000;
+  margin-bottom: 0;
+}
+
+#usually #sec03 {
+  color: #000;
+}
+
+#usually #sec03 h2 {
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+#usually #sec04 {
+  background: url(../img/shared/bg04.jpg) repeat center top;
+  padding-bottom: 5%;
+  color: #000;
+}
+
+#usually #sec04 h2 {
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+#usually #sec04 h3 {
+  text-align: center;
+  padding: 2% 0;
+}
+
+#usually #sec04 h3:after {
+  color: #000;
+  font-size: 16px;
+}
+
+#usually #sec04 h3 img {
+  width: 70%;
+}
+
+#usually #sec04 .toggle {
+  border: 1px solid #000;
+}
+
+#usually #sec04 .toggle-main {
+  padding-bottom: 10px;
+}
+
+#usually #sec04 .note2 {
+  text-align: center;
+  color: #d51519;
+  font-weight: bold;
+  border-top: 1px solid #000;
+  padding-top: 5px;
+}
+
+#usually #sec04 .item {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#usually #sec04 .item dl {
+  font-size: 15px;
+  line-height: 23px;
+  padding: 12px 0;
+  border-bottom: 1px dotted #000;
+}
+
+#usually #sec04 .item dl:after {
+  content: "." !important;
+  clear: both !important;
+  display: block !important;
+  height: 0 !important;
+  visibility: hidden !important;
+}
+
+#usually #sec04 .item dl dt {
+  float: left;
+}
+
+#usually #sec04 .item dl dd {
+  float: right;
+  text-align: right;
+  font-weight: bold;
+}
+
+#usually #sec04 .item .note_text {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 12px 0;
+}
+
+#usually #sec04 h4 {
+  background-color: #000;
+  border-bottom: 5px solid #d50f0f;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+/*=============================================*/
+/*                   　intro　　　　　          */
+/*=============================================*/
+#intro #key .txt_key {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 70%;
+}
+
+#intro #sec01 {
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/shared/line01.png) repeat-x center bottom;
+  background-size: 100%, 100%;
+  padding-bottom: 5%;
+}
+
+#intro #sec02 {
+  padding-top: 5%;
+  background: url(../img/shared/bg06.jpg) repeat center top;
+  color: #000;
+}
+
+#intro #sec02 .info1 {
+  padding-bottom: 10%;
+}
+
+#intro #sec02 .info1 .photo {
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+#intro #sec02 .info1 h3 {
+  width: 90%;
+  margin: 0 auto 5%;
+}
+
+#intro #sec02 .info2 {
+  background: url(../img/shared/bg11.png) repeat center top;
+  margin-left: -2%;
+  margin-right: -2%;
+  padding: 5% 2% 10%;
+}
+
+#intro #sec02 .info2 h3 {
+  width: 95%;
+  margin: 0 auto 5%;
+}
+
+#intro #sec02 .info2 .photo {
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+#intro #sec02 .info3 {
+  background: url(../img/intro/s2-bg-info.png) repeat center bottom;
+  margin-left: -2%;
+  margin-right: -2%;
+  padding: 5% 2% 10%;
+}
+
+#intro #sec02 .info3 h3 {
+  margin-bottom: 5%;
+}
+
+#intro #sec02 .info3 .bx-pager {
+  top: -5%;
+  right: 5%;
+  left: auto;
+  width: 40%;
+}
+
+#intro #sec04 {
+  padding-top: 5%;
+}
+
+/*=============================================*/
+/*                   　access　　　　　          */
+/*=============================================*/
+#access #key .txt_key {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 60%;
+}
+
+#access #sec01 {
+  background: url(../img/shared/line01.png) repeat-x center top, url(../img/shared/line01.png) repeat-x center bottom;
+  background-size: 100%, 100%;
+  padding-top: 8px;
+  padding-bottom: 10%;
+}
+
+#access #sec01 .info {
+  padding-bottom: 5%;
+}
+#access .recruit {
+  margin: 20px auto;
+  background-color: rgba(255,255,255,0.9);
+  padding: 15px 2%;
+  color: #630;
+  text-shadow: 0px 0px 5px rgba(146,119,83,0.5);
+}
+#access .recruit .tit{
+  text-align: center;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+  font-size: 18px;
+  padding-bottom: 0.4em;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(91, 8, 9);
+  margin-bottom: 10px;
+}
+#access #sec01 .info dl {
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+}
+
+#access #sec01 .info dl:first-child {
+  border-top: 1px solid #fff;
+}
+
+#access #sec01 .info dl dd {
+  padding-left: 10px;
+}
+
+#access #sec01 .info dl dd span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#access #sec01 .g-btn {
+  padding-bottom: 5%;
+}
+
+#access #sec01 .map {
+  line-height: 1;
+}
+
+#access #sec01 .map .btn {
+  margin-top: 5%;
+}
+
+#access #sec02 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: url(../img/shared/bg04.jpg) repeat center top;
+  color: #000;
+}
+
+#access #sec02 h2 {
+  margin-bottom: 5%;
+}
+
+#access #sec02 .group {
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: url(../img/shared/bg09.png) repeat center top;
+}
+
+#access #sec02 .group h3 {
+  width: 90%;
+  margin: 0 auto 5%;
+}
+
+#access #sec02 .group .btn {
+  margin-top: 5%;
+}

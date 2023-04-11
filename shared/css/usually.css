@@ -1,0 +1,302 @@
+#key {
+  background: url(../img/usually/key.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+#key .key_txt {
+  position: absolute;
+  top: 738px;
+  left: 96px;
+}
+
+#sec1 {
+  position: relative;
+  padding-bottom: 128px;
+}
+
+#sec1:before {
+  content: url(../img/usually/sec1_bg.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#sec1:after {
+  content: '';
+  background: url(../img/shared/line-footer.png) repeat-x top center;
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  right: 0;
+  height: 28px;
+  z-index: 1;
+}
+
+#sec1 h2 {
+  padding-top: 93px;
+  text-align: center;
+}
+
+#sec1 .txt {
+  padding: 18px 0 27px;
+  text-align: center;
+}
+
+#sec1 .info1 {
+  position: relative;
+}
+
+#sec1 .info1 .map {
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
+
+#sec1 .info1 .photo1 {
+  /*padding: 32px 0 0 148px;*/
+  padding: 32px 0 0 130px;
+}
+
+#sec1 .info1 .photo2 {
+  padding: 52px 0 0 71px;
+}
+
+#sec1 .info2 {
+  position: relative;
+  margin-top: -35px;
+}
+
+#sec1 .info2 .photo {
+  padding-left: 107px;
+}
+
+#sec1 .info2 .box {
+  width: 398px;
+  height: 296px;
+  background: url(../img/usually/sec1_note_img.png) no-repeat top center;
+  padding-top: 47px;
+  text-align: center;
+  position: absolute;
+  top: 26px;
+  right: -52px;
+  line-height: 25px;
+  color: #000;
+}
+
+#sec1 .info2 .bnr {
+  position: absolute;
+  top: 310px;
+  right: -28px;
+}
+
+.sec23_bg {
+  background: url(../img/usually/sec23_bg.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+#sec2 {
+  position: relative;
+}
+
+#sec2:before {
+  content: url(../img/usually/sec2_bg.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#sec2 h2 {
+  padding-top: 71px;
+  margin-left: -43px;
+}
+
+#sec2 .tabs-switch .tab-content .info {
+  position: relative;
+}
+
+#sec2 .tabs-switch .tab-content .info .box {
+  background: url(../img/menu/sec2_bg_box.png) repeat top center;
+  width: 480px;
+  margin-left: -30px;
+  position: relative;
+  z-index: 2;
+}
+
+#sec2 .tabs-switch .tab-content .info .box .ttl {
+  width: 480px;
+  height: 108px;
+  line-height: 55px;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #000;
+  position: relative;
+  padding: 27px 0 25px;
+}
+
+#sec2 .tabs-switch .tab-content .info .box .ttl:before {
+  content: url(../img/menu/sec2_icon.png);
+  position: absolute;
+  top: 23px;
+  right: 13px;
+}
+
+#sec2 .tabs-switch .tab-content .info .box .ttl span {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#sec2 .tabs-switch .tab-content .info .box .price {
+  font-size: 28px;
+  line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 14px 0 14px 0px;
+  color: #d51519;
+  font-weight: bold;
+  text-align: center;
+}
+
+#sec2 .tabs-switch .tab-content .info .box .price span {
+  font-size: 20px;
+}
+
+#sec2 .tabs-switch .tab-content .info .box .text {
+  width: 378px;
+  padding: 22px 0 33px 50px;
+  color: #000;
+}
+
+#sec2 .tabs-switch .tab-content .info .photo {
+  position: absolute;
+  top: -41px;
+  right: -50px;
+}
+
+#sec2 .tabs-switch .tab-content .info .bnr {
+  position: absolute;
+  top: 326px;
+  left: 95px;
+  z-index: 2;
+}
+
+#sec3 {
+  position: relative;
+  margin-top: -12px;
+  padding-bottom: 7px;
+}
+
+#sec3:before {
+  content: url(../img/usually/sec3_bg.png);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#sec3 h2 {
+  padding-left: 641px;
+}
+
+#sec3 .txt {
+  position: absolute;
+  top: 135px;
+  left: 470px;
+  z-index: 2;
+  color: #000;
+}
+
+#sec4 {
+  background: url(../img/menu/sec7_bg.jpg) repeat top center;
+  color: #000;
+  padding-bottom: 80px;
+}
+
+#sec4 h2 {
+  padding: 120px 0 0 399px;
+  position: relative;
+  z-index: 2;
+}
+
+#sec4 .txt {
+  padding: 14px 0 60px 517px;
+  color: #000;
+  z-index: 2;
+  position: relative;
+}
+
+#sec4 .photo {
+  position: absolute;
+  top: 60px;
+  left: -120px;
+}
+
+#sec4 .info h3 {
+  padding-top: 39px;
+  text-align: center;
+}
+
+#sec4 .info .note1 {
+  padding: 5px 0 9px;
+  width: 550px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+#sec4 .info .note2 {
+  padding: 11px 0 032px;
+  text-align: center;
+  color: #d51519;
+  font-weight: bold;
+}
+
+#sec4 .info .inner {
+  width: 950px;
+  margin: 0 auto;
+}
+
+#sec4 .info .inner .box {
+  width: 450px;
+}
+
+#sec4 .info .inner .box .item {
+  padding-bottom: 30px;
+}
+
+#sec4 .info .inner .box .item h4 {
+  background-color: #000;
+  border-bottom: 5px solid #d50f0f;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding: 19px 0 14px;
+}
+
+#sec4 .info .inner .box .item dl {
+  font-size: 15px;
+  line-height: 23px;
+  padding: 12px 0 12px 10px;
+  border-bottom: 1px dotted #000;
+  display: table;
+  width: 100%;
+}
+
+#sec4 .info .inner .box .item dl dt {
+  display: table-cell;
+  padding-left: 20px;
+}
+
+#sec4 .info .inner .box .item dl dd {
+  display: table-cell;
+  text-align: right;
+  padding-right: 20px;
+  font-weight: bold;
+	width: 138px;
+}
+
+#sec4 .info .inner .box .item .note_text {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 12px 0;
+}

@@ -1,0 +1,247 @@
+#key {
+  background: url(../img/access/key.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+#key .key_txt {
+  position: absolute;
+  top: 761px;
+  left: 146px;
+}
+
+.recruit{
+width: 1000px;
+margin: 40px auto;
+background-color: rgba(255,255,255,0.9);
+padding: 15px 0;
+color:#630;
+text-shadow: 0px 0px 5px rgba(146,119,83,0.5);
+}
+.recruit .tit{
+text-align: center;
+font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+font-size: 24px;
+border-bottom: solid 1px #5B0809;
+padding-bottom: .4em;
+font-weight: bold;
+}
+.recruit .txtx{
+text-align: center;
+padding-top: 10px;
+font-size: 18px;
+}
+
+#sec1 {
+  position: relative;
+}
+
+#sec1:before {
+  content: url(../img/access/sec1_bg.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#sec1 .info1 {
+  padding-bottom: 50px;
+}
+
+#sec1 .info1 .wrap:before {
+  content: url(../img/access/sec1_deco.png);
+  position: absolute;
+  top: 321px;
+  right: -217px;
+}
+
+#sec1 .info1 h2 {
+  padding: 149px 0 27px 222px;
+}
+
+#sec1 .info1 .info {
+  width: 790px;
+  margin: 0 auto;
+}
+
+#sec1 .info1 .info dl {
+  padding: 19px 0;
+  border-top: 1px solid #fff;
+}
+
+#sec1 .info1 .info dl:last-child {
+  border-bottom: 1px solid #fff;
+}
+
+#sec1 .info1 .info dl dt {
+  width: 265px;
+  text-align: center;
+  float: left;
+}
+
+#sec1 .info1 .info dl dd {
+  float: left;
+}
+
+#sec1 .info1 .info dl dd span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#sec1 .info2 {
+  background: url(../img/access/sec1_info2_bg.png) repeat top center;
+  position: relative;
+}
+
+#sec1 .info2 .sec1_btn {
+  width: 895px;
+  margin: 0 auto;
+  padding: 21px 0 26px;
+}
+
+#sec1 .info2 .sec1_btn .text {
+  text-align: center;
+  margin-top: -15px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+#sec1 #gmap {
+  position: relative;
+}
+
+#sec1 #gmap:after {
+  content: '';
+  background: url(../img/party/line2.png) repeat-x top center;
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  right: 0;
+  height: 28px;
+  z-index: 1;
+}
+
+#sec2 {
+  background: url(../img/menu/sec7_bg.jpg) repeat top center;
+  color: #000;
+}
+
+#sec2 .info1 {
+  position: relative;
+}
+
+#sec2 .info1 h2 {
+  padding-top: 90px;
+  text-align: center;
+}
+
+#sec2 .info1 .map {
+  position: absolute;
+  top: 219px;
+  right: 0;
+}
+
+#sec2 .info1 .col1 {
+  min-height: 408px;
+  position: relative;
+}
+
+#sec2 .info1 .col1 .photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#sec2 .info1 .col1 .txt {
+  padding: 118px 0 0 16px;
+}
+
+#sec2 .info1 .col2 {
+  min-height: 414px;
+  position: relative;
+}
+
+#sec2 .info1 .col2 .photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#sec2 .info1 .col2 .txt {
+  padding: 103px 0 0 486px;
+}
+
+#sec2 .info1 .col3 {
+  min-height: 362px;
+  position: relative;
+}
+
+#sec2 .info1 .col3 .photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#sec2 .info1 .col3 .txt {
+  padding: 122px 0 0 614px;
+  width: 359px;
+}
+
+#sec2 .info1 .bnr {
+  margin-top: -115px;
+  margin-left: 469px;
+  position: relative;
+  z-index: 3;
+}
+
+#sec2 .info2 {
+  background: url(../img/access/sec2_bg.png) no-repeat top center;
+  background-size: cover;
+  margin-top: -110px;
+  position: relative;
+  padding-bottom: 49px;
+}
+
+#sec2 .info2 h3 {
+  padding-top: 110px;
+  text-align: center;
+}
+
+#sec2 .info2 .map {
+  margin-top: -10px;
+	float: right;
+}
+
+
+#sec2 .info2 .txt {
+  width: 432px;
+  padding: 30px 0 0 69px;
+}
+
+
+/*
+#sec2 .info2 .photo {
+  position: absolute;
+  top: 249px;
+  right: -84px;
+}
+*/
+
+#sec2 .info2 .go_slide {
+  width: 480px;
+  margin-top: 50px;
+
+}
+
+#sec2 .info2 .go_slide .bx-pager {
+  top: 320px;
+  /*right: -20px;*/
+	margin: auto;
+}
+
+
+#sec2 .info2 .bnr {
+  padding-left: 227px;
+}
+
+
+

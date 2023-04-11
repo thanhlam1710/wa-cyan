@@ -1,0 +1,90 @@
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+#belt {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .3s linear;
+    background: url("../img/shared/bg01.jpg")
+}
+
+#belt.fixed {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto
+}
+
+#belt #navigation .gr {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 140px;
+    position: relative
+}
+
+#belt #navigation .gr .fix-logo {
+    margin-left: -13px
+}
+
+#belt #navigation .gr ul {
+    padding-top: 28px
+}
+
+#belt #navigation .gr ul li {
+    display: block
+}
+
+#belt #navigation .gr ul li a {
+    position: relative
+}
+
+#belt #navigation .gr ul li a::before {
+    position: absolute;
+    content: "";
+    background: url("../img/mikunigaoka/hover_img.png");
+    width: 75px;
+    height: 79px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0
+}
+
+#belt #navigation .gr ul li a:hover::before {
+    opacity: 1
+}
+
+#belt #navigation .gr ul li a img {
+    width: 100%;
+    height: auto
+}
+
+#belt #navigation .gr ul li a.active::before {
+    opacity: 1
+}
+
+#belt #navigation .gr ul.fix-page {
+    padding-top: 17px
+}
+
+#belt #navigation .gr .fix-tel {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+#header .wrap .nav li {
+    margin-top: 15px
+}
+
+#header .wrap .nav .mr253 {
+    margin-right: 253px
+}

@@ -1,0 +1,664 @@
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.shadown {
+    box-shadow: 0 0 10px #000
+}
+
+#key .slide1 {
+    background-image: url("../img/mikunigaoka/kv_1.jpg")
+}
+
+#key .slide2 {
+    background-image: url("../img/mikunigaoka/kv_2.jpg")
+}
+
+#key .slide3 {
+    background-image: url("../img/mikunigaoka/kv_3.jpg")
+}
+
+#key .slide4 {
+    background-image: url("../img/mikunigaoka/kv_4.jpg")
+}
+
+#header .btn-action {
+    position: absolute;
+    bottom: 42px;
+    right: 43px
+}
+
+#header .btn-action .btn-web {
+    padding-top: 11px
+}
+
+#header .key_txt {
+    position: absolute;
+    bottom: 86px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+@media screen and (max-width: 1500px) {
+    #header .btn-action {
+        right: 20px
+    }
+}
+
+#header h1 {
+    left: -138px;
+    top: 39px
+}
+
+#header .tel {
+    top: -10px;
+    right: 0px
+}
+
+#sec1 {
+    background: url("../img/mikunigaoka/sec1_deco.png") no-repeat right top, url("../img/mikunigaoka/sec1_bg.jpg") no-repeat center top/cover;
+    position: relative;
+    padding-bottom: 54px
+}
+
+#sec1 .wrap .deco1 {
+    padding-top: 67px;
+    margin-left: -13px
+}
+
+#sec1 .wrap .deco2 {
+    position: absolute;
+    top: 51px;
+    left: calc(50% - 49px)
+}
+
+#sec1 .wrap .gr {
+    flex-wrap: nowrap
+}
+
+#sec1 .wrap .gr .box h2 {
+    margin: 66px 0 0 -74px;
+    position: relative;
+    z-index: 2
+}
+
+#sec1 .wrap .gr .box .txt {
+    width: 363px;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: .05em;
+    margin: -6px 0 0 30px
+}
+
+#sec1 .wrap .gr .box .note {
+    padding: 10px 0 0 30px;
+    font-weight: bold
+}
+
+#sec1 .wrap .gr .js-slider {
+    margin: -28px 0 0 -142px;
+    width: 824px;
+    display: inline-block
+}
+
+#sec1 .wrap .gr .js-slider .slick-dots {
+    justify-content: start;
+    padding: 16px 0px 0 2px
+}
+
+#sec1 .wrap .gr .js-slider .slick-dots li {
+    border-radius: unset;
+    border: none;
+    margin: 0 7px 0 5px
+}
+
+#sec1 .wrap .gr .js-slider .slick-dots li button {
+    border-radius: unset;
+    border: none;
+    cursor: pointer;
+    background: #3f3e3d
+}
+
+#sec1 .wrap .gr .js-slider .slick-dots li.slick-active button {
+    background-color: #c92c06
+}
+
+@media screen and (max-width: 1444px) {
+    #sec1 .wrap {
+        margin: 0;
+        padding: 0 50px
+    }
+
+    #sec1 .wrap .gr .js-slider {
+        margin-top: 18px
+    }
+
+    #sec1 .wrap .gr .js-slider img {
+        width: 90%;
+        height: auto
+    }
+}
+
+#sec2 {
+    background: url("../img/mikunigaoka/sec2_bg_top.png") no-repeat center top/100%, url("../img/mikunigaoka/sec2_bg_main.jpg") center top;
+    position: relative
+}
+
+#sec2::before {
+    position: absolute;
+    content: "";
+    background: url("../img/mikunigaoka/sec2_bg_deco_1.png") no-repeat;
+    background-size: 100%;
+    top: calc(30% + 22px);
+    left: 0;
+    width: 100%;
+    height: 1796px
+}
+
+#sec2:after {
+    position: absolute;
+    content: "";
+    background: url("../img/mikunigaoka/sec2_bg_deco_2.png") no-repeat;
+    width: 909px;
+    height: 750px;
+    bottom: -275px;
+    right: 0;
+    z-index: 1
+}
+
+#sec2 .wrap h2 {
+    padding: 125px 0px 0px;
+    margin-right: -18px;
+    text-align: right
+}
+
+#sec2 .wrap h2 p {
+    font-weight: 900
+}
+
+#sec2 .wrap h2 .open {
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: .05em
+}
+
+#sec2 .wrap h2 .open span {
+    font-size: 60px;
+    color: #c92c06
+}
+
+#sec2 .wrap h2 img {
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 189px)
+}
+
+#sec2 .wrap h2 .price {
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: 900;
+    color: #c92c06;
+    padding: 126px 21px 0 0;
+    text-shadow: -2px -3px 5px #fff, 2px -2px 5px #fff, -3px 2px 5px #fff, 2px 4px 5px #fff, -3px -3px 5px #fff, 5px 2px 5px #fff, 4px -3px 5px #fff, 3px 3px 5px #fff
+}
+
+#sec2 .wrap h2 .price span {
+    font-size: 40px
+}
+
+#sec2 .wrap .img1 {
+    margin: -329px 0 0px -357px
+}
+
+#sec2 .wrap .gr1 .box {
+    width: 460px;
+    background: url("../img/mikunigaoka/bg01.jpg");
+    border: 4px solid #000;
+    box-sizing: border-box;
+    position: relative
+}
+
+#sec2 .wrap .gr1 .box h3 {
+    text-align: center
+}
+
+#sec2 .wrap .gr1 .plus1 {
+    padding: 163px 0 0 3px
+}
+
+#sec2 .wrap .gr1 .box1 {
+    padding-bottom: 28px
+}
+
+#sec2 .wrap .gr1 .box1 h3 {
+    padding: 16px 8px 0 0
+}
+
+#sec2 .wrap .gr1 .box1 .txt {
+    padding: 5px 0 0 82px;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: .05em;
+    font-weight: 900;
+    text-align: left
+}
+
+#sec2 .wrap .gr1 .box1 .txt span {
+    font-size: 20px;
+    margin: -3px 0 0;
+    display: block
+}
+
+#sec2 .wrap .gr1 .box1::before {
+    position: absolute;
+    content: url("../img/mikunigaoka/sec2_box2_deco.png");
+    bottom: -115px;
+    right: -18px
+}
+
+#sec2 .wrap .gr1 .box2 h3 {
+    padding: 17px 0px 0 12px
+}
+
+#sec2 .wrap .gr1 .box2:before {
+    position: absolute;
+    content: url("../img/mikunigaoka/sec2_box3_deco.png");
+    bottom: -145px;
+    right: -58px;
+    z-index: 1
+}
+
+#sec2 .wrap .gr1 .box2 dl {
+    font-weight: bold
+}
+
+#sec2 .wrap .gr1 .box2 dl dt {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: .05em;
+    padding: 10px 0 23px 0
+}
+
+#sec2 .wrap .gr1 .box2 dl dt span {
+    font-size: 60px
+}
+
+#sec2 .wrap .gr1 .box2 dl dd {
+    margin-left: 13px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: .05em
+}
+
+#sec2 .wrap .plus2 {
+    text-align: center;
+    padding: 89px 0 0 16px
+}
+
+#sec2 .wrap .gr2 {
+    background: url("../img/mikunigaoka/bg01.jpg");
+    margin-top: 18px;
+    padding-bottom: 73px;
+    position: relative;
+    z-index: 2
+}
+
+#sec2 .wrap .gr2 h3 {
+    text-align: center;
+    padding-top: 16px
+}
+
+#sec2 .wrap .gr2 .menu-list {
+    flex-wrap: nowrap
+}
+
+#sec2 .wrap .gr2 .menu-list .list {
+    position: relative;
+    padding-top: 21px
+}
+
+#sec2 .wrap .gr2 .menu-list .list::before {
+    position: absolute;
+    content: "";
+    border-left: 2px solid #a18979;
+    height: 425px;
+    width: 3px;
+    top: 30px
+}
+
+#sec2 .wrap .gr2 .menu-list .list li {
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: .05em;
+    font-weight: bold
+}
+
+#sec2 .wrap .gr2 .menu-list .list1 {
+    width: 331px;
+    padding-left: 98px
+}
+
+#sec2 .wrap .gr2 .menu-list .list1::before {
+    left: 80px
+}
+
+#sec2 .wrap .gr2 .menu-list .list2 {
+    width: 281px
+}
+
+#sec2 .wrap .gr2 .menu-list .list3 {
+    width: 283px;
+    padding: 21px 10px 0px 0px
+}
+
+#sec2 .wrap .gr2 .menu-list .list2:before,
+#sec2 .wrap .gr2 .menu-list .list3:before {
+    left: -15px
+}
+
+#sec3 {
+    position: relative;
+    background: url("../img/mikunigaoka/sec3_bg_top.png") no-repeat center top/100%
+}
+
+#sec3 h2 {
+    padding-top: 101px;
+    margin-left: -214px
+}
+
+#sec3 .note {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: right;
+    margin: -18px -12px 0 0
+}
+
+@media screen and (max-width: 1350px) {
+    #sec3 h2 {
+        padding-top: 101px;
+        margin-left: 0;
+        width: 100%
+    }
+
+    #sec3 h2 img {
+        width: 100%;
+        height: auto
+    }
+}
+
+#sec4 {
+    position: relative;
+    padding-bottom: 98px;
+    background: url("../img/mikunigaoka/sec4_bg_bottom.png") no-repeat center bottom/100%
+}
+
+#sec4 .wrap h2 {
+    margin: -100px 0 -38px -43px
+}
+
+#sec4 .wrap .img-slide {
+    position: relative;
+    z-index: 1
+}
+
+#sec4 .wrap .img-slide .slick-auto li {
+    position: relative !important
+}
+
+#sec4 .wrap .img-slide .slick-auto li .info {
+    position: absolute;
+    bottom: 30px;
+    right: 29px;
+    background: url("../img/mikunigaoka/sec4_deco_price.jpg") no-repeat;
+    background-size: 100%;
+    font-weight: bold;
+    color: #000;
+    padding: 28px 36px 10px 53px;
+    width: 403px
+}
+
+#sec4 .wrap .img-slide .slick-auto li .info dt {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: .05em
+}
+
+#sec4 .wrap .img-slide .slick-auto li .info dt span {
+    font-size: 24px
+}
+
+#sec4 .wrap .img-slide .slick-auto li .info dd {
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: .05em;
+    text-align: right
+}
+
+#sec4 .wrap .img-slide .slick-auto li .info dd span {
+    font-size: 20px
+}
+
+#sec4 .wrap .img-slide .slick-auto li .info1 {
+    width: 488px;
+    padding: 22px 24px 13px 37px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between
+}
+
+#sec4 .wrap .img-slide .js-thumb {
+    padding-top: 21px
+}
+
+#sec4 .wrap .img-slide .js-thumb .slick-track {
+    width: 1034px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    transform: translate3d(-16px, 0px, 0px) !important
+}
+
+#sec4 .wrap .img-slide .js-thumb .slick-slide {
+    background: rgba(0, 0, 0, .7);
+    width: 152px !important
+}
+
+#sec4 .wrap .img-slide .js-thumb .slick-slide li {
+    cursor: pointer;
+    opacity: .5;
+    display: block
+}
+
+#sec4 .wrap .img-slide .js-thumb .slick-current li {
+    opacity: 1
+}
+
+#sec4 .wrap .note {
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 32px 0 0 12px
+}
+
+#sec5 {
+    background: url("../img/mikunigaoka/sec5_deco_1.png") no-repeat left top, url("../img/mikunigaoka/sec5_deco_2.png") no-repeat right bottom, url("../img/mikunigaoka/sec5_bg.jpg");
+    position: relative;
+    padding-bottom: 200px
+}
+
+#sec5 h2 {
+    text-align: center;
+    padding: 40px 59px 0 0px
+}
+
+#sec5 .wrap .floor-map {
+    margin: -274px 0 0 -85px
+}
+
+#sec5 .wrap .img1 {
+    position: absolute;
+    top: -48px;
+    right: -118px
+}
+
+#sec5 .wrap .gr {
+    position: absolute;
+    width: 506px;
+    top: calc(50% - 96px);
+    right: -68px
+}
+
+#sec5 .wrap .gr .txt {
+    width: 393px;
+    font-size: 15px;
+    line-height: 32px;
+    color: #170801;
+    padding: 31px 0 0 0
+}
+
+#sec5 .wrap .slide-2 {
+    width: 608px;
+    margin: 39px 0 0 -107px
+}
+
+#footer {
+    background: url("../img/mikunigaoka/footer_bg.jpg");
+    text-align: left
+}
+
+#footer .ft-logo {
+    padding: 30px 0 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    max-width: 1000px
+}
+
+#footer .ft-top .wrap .tel {
+    padding-top: 32px
+}
+
+#footer .ft-top .wrap .note-tel {
+    position: absolute;
+    top: 76px;
+    left: 79px
+}
+
+#footer .ft-top .wrap .info {
+    padding-top: 31px;
+    margin-left: -7px
+}
+
+#footer .ft-top .wrap .info dl {
+    max-width: 690px;
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    line-height: 48px;
+    border-bottom: 1px solid #746057
+}
+
+#footer .ft-top .wrap .info dl:last-child {
+    border-bottom: unset
+}
+
+#footer .ft-top .wrap .info dl dt {
+    max-width: 168px;
+    width: 100%
+}
+
+#footer .ft-top .wrap .photo {
+    position: absolute;
+    bottom: 7px;
+    right: 0px
+}
+
+#footer .ft-top .wrap .note {
+    position: absolute;
+    top: 11px;
+    right: 171px;
+    font-size: 15px;
+    line-height: 32px
+}
+
+#footer .map {
+    padding: 76px 0 148px
+}
+
+#footer .map .wrap .map-action {
+    max-width: 885px;
+    margin: 0 auto;
+    padding-top: 79px
+}
+
+#footer .map .wrap .map-action li {
+    width: 412px;
+    letter-spacing: .1em
+}
+
+#footer .map .wrap .map-action li:nth-child(2) a span {
+    margin: 0
+}
+
+#footer .map .wrap .map-action li:nth-child(3) {
+    padding-top: 14px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .05em
+}
+
+#footer .map .wrap .map-action .map-btn a {
+    display: block;
+    position: relative;
+    background-color: #d61320;
+    font-size: 25px;
+    line-height: 78px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer
+}
+
+#footer .map .wrap .map-action .map-btn a span {
+    margin: 0 0 0 -35px
+}
+
+#footer .map .wrap .map-action .map-btn a:hover {
+    opacity: .8
+}
+
+#footer .map .wrap .map-action .map-btn a::before {
+    position: absolute;
+    content: url("../img/mikunigaoka/icon_row.png");
+    top: 15px;
+    right: 15px
+}
+
+#footer .ft_bot {
+    background: rgba(0, 0, 0, .5);
+    padding: 20px 0
+}
+
+#footer .ft_bot .wrap address {
+    font-size: 13px;
+    padding-top: 0;
+    line-height: 30px;
+    letter-spacing: .025em;
+    margin-top: -4px
+}
+
+#footer .ft_bot .wrap address a {
+    text-decoration: underline
+}
+
+#footer .ft_bot .wrap address a:hover {
+    text-decoration: none
+}
+
+#socialbuttons {
+    padding: 4px 0 0
+}

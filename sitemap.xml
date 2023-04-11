@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+	<loc>https://www.wa-cyan.com/</loc>
+	<xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.wa-cyan.com/sp/" />
+</url>	
+<url>
+	<loc>https://www.wa-cyan.com/intro.html</loc>
+	<xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.wa-cyan.com/sp/intro.html" />
+</url>
+<url>
+	<loc>https://www.wa-cyan.com/menu.html</loc>
+	<xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.wa-cyan.com/sp/menu.html" />
+</url>
+<url>
+	<loc>https://www.wa-cyan.com/usually.html</loc>
+	<xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.wa-cyan.com/sp/usually.html" />
+</url>
+<url>
+	<loc>https://www.wa-cyan.com/party.html</loc>
+	<xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.wa-cyan.com/sp/party.html" />
+</url>
+<url>
+	<loc>https://www.wa-cyan.com/access.html</loc>
+	<xhtml:link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.wa-cyan.com/sp/access.html" />
+</url>
+</urlset>

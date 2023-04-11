@@ -1,0 +1,310 @@
+﻿html {
+  min-width: 1200px;
+  /* viewport */
+}
+
+
+
+/*=============================================
+ * body
+ *=============================================*/
+
+body {
+  color: #fff;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 0.8px;
+  background: url(../img/shared/bg.jpg) repeat top center;
+  min-width: inherit;
+  min-height: inherit;
+  max-height: 100%;
+}
+
+
+
+/*=============================================
+ * fonts - DON'T EDIT
+ *=============================================*/
+
+.fnt-mincho {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "メイリオ", Meiryo, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.fnt-meiryo {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴシックPro", "ＭＳ ゴシック", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.fnt-gothic {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.fnt-noto {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+
+
+
+/*=============================================
+ * .fnt - customs
+ *=============================================*/
+
+.fnt-mincho {}
+
+.fnt-meiryo {}
+
+.fnt-gothic {}
+
+.fnt-garamond {}
+
+
+
+/*=============================================
+ * #wrapper
+ *=============================================*/
+
+#wrapper {
+  clear: both;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap {
+  width: 1000px;
+}
+
+
+
+/*=============================================
+ * header
+ *=============================================*/
+
+#header {
+  position: relative;
+  height: 1000px;
+}
+
+#header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url(../img/shared/belt_header.png) no-repeat bottom center;
+  background-size: cover;
+  height: 243px;
+  z-index: 1;
+}
+
+#header:after {
+  content: '';
+  background: url(../img/shared/line-footer.png) repeat-x top center;
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  right: 0;
+  height: 28px;
+  z-index: 1;
+}
+
+
+#header h1 {
+  position: absolute;
+  top: 39px;
+  left: -140px;
+  font-size: 14px;
+  z-index: 99;
+  color: #fff;
+}
+
+#header .tel {
+  position: absolute;
+  top: 20px;
+  right: -8px;
+  z-index: 99;
+}
+
+#header .logo {
+  position: absolute;
+  left: 370px;
+  top: 0;
+  z-index: 99;
+}
+
+#header .nav {
+  padding-top: 95px;
+  margin-left: 40px;
+  z-index: 99;
+}
+
+#header #key {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+/*=============================================
+ * key
+ *=============================================*/
+
+#key {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 1000px;
+  position: relative;
+}
+
+#key .slide-fade {
+  min-height: inherit;
+}
+
+#key .slide {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+/*=============================================
+ * container
+ *=============================================*/
+
+#container {}
+
+
+
+/*=============================================
+ * #socialbuttons
+ *=============================================*/
+
+#socialbuttons {}
+
+
+
+/*=============================================
+ * footer
+ *=============================================*/
+
+#footer {
+  text-align: center;
+}
+
+#footer {
+  position: relative;
+  background: url(../img/shared/bg_footer.jpg) repeat top center;
+}
+
+#footer:before {
+  content: '';
+  background: url(../img/shared/line-footer.png) repeat-x top center;
+  position: absolute;
+  top: -18px;
+  left: 0;
+  right: 0;
+  height: 28px;
+}
+
+#footer .footer_top .tel {
+  text-align: center;
+  padding-top: 5px;
+  width: 884px;
+  margin: 0 auto;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #fff;
+}
+
+#footer .footer_top .note_tel {
+  position: absolute;
+  top: 61px;
+  left: 317px;
+  letter-spacing: 0.7px;
+}
+
+#footer .footer_top .info_footer {
+  padding-bottom: 24px;
+}
+
+#footer .footer_top .info_footer .logo {
+  float: left;
+  padding: 29px 0 0 78px;
+}
+
+#footer .footer_top .info_footer .boxinfo {
+  width: 495px;
+  border-right: 1px solid #fff;
+  float: left;
+  text-align: left;
+  margin-top: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 20px;
+  letter-spacing: 0.7px;
+}
+
+#footer .footer_top .info_footer .nav {
+  text-align: left;
+  padding: 38px 0 0 30px;
+  float: left;
+  letter-spacing: 0.7px;
+}
+
+#footer .footer_top .info_footer .nav li {
+  display: block;
+}
+
+#footer .footer_bot {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+}
+
+
+
+
+/*=============================================
+ * copyright
+ *=============================================*/
+
+address {
+  font-size: 13px;
+  padding-top: 7px;
+}
+
+address a {
+  font-size: 10px;
+  text-align: center;
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+}
+
+.mr260 {
+  margin-right: 260px;
+}
+
+.m-bnr {
+  position: absolute;
+  bottom: 4%;
+  right: 2%;
+  text-align: right;
+}
+
+.m-bnr-f {
+  position: absolute;
+  bottom: 34%;
+  right: 2%;
+  text-align: right;
+}

@@ -1,0 +1,324 @@
+#key .slide .key_txt {
+  position: absolute;
+  top: 536px;
+  right: -33px;
+}
+
+#key .slide .bnr {
+  position: absolute;
+  top: 857px;
+  right: 0;
+  z-index: 9;
+}
+
+#key .slide1 {
+  background-image: url(../img/index/key1.jpg);
+}
+
+#key .slide2 {
+  background-image: url(../img/index/key2.jpg);
+}
+
+#key .slide3 {
+  background-image: url(../img/index/key3.jpg);
+}
+
+#key .slide4 {
+  background-image: url(../img/index/key4.jpg);
+}
+
+#sec1 {
+  background: url(../img/index/sec1_bg.png) no-repeat top center;
+  background-size: cover;
+  padding-bottom: 404px;
+  position: relative;
+}
+
+#sec1:after {
+  content: '';
+  background: url(../img/shared/line-footer.png) repeat-x top center;
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  right: 0;
+  height: 28px;
+  z-index: 1;
+}
+
+#sec1 h2 {
+  padding: 57px 0 0 333px;
+}
+
+#sec1 .txt {
+  width: 690px;
+  text-align: center;
+  margin-left: 332px;
+  padding-top: 6px;
+}
+
+#sec1 .bnr {
+  padding-left: 408px;
+  z-index: 9;
+  position: relative;
+}
+
+#sec1 .photo {
+  position: absolute;
+  top: 481px;
+  left: -250px;
+}
+
+#sec2 {
+  background: url(../img/index/sec2_bg.jpg) no-repeat top center;
+  padding-bottom: 37px;
+  background-size: cover;
+}
+
+#sec2 h2 {
+  padding: 28px 0 28px;
+}
+
+#sec2 .banner {
+  height: 558px;
+  position: relative;
+}
+
+#sec2 .banner .banner_left {
+  position: absolute;
+  top: 0;
+  left: -259px;
+}
+
+#sec2 .banner .banner_left img {
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sec2 .banner .banner_right img {
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sec2 .banner .banner_right {
+  position: absolute;
+  top: 0;
+  right: -252px;
+}
+
+#sec2 .info {
+  margin-top: -53px;
+  position: relative;
+  z-index: 4;
+}
+
+/*#sec2 .scale1 img {
+    width: 892px;
+    height: 628px;
+    margin-top: -32px;
+    -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+    z-index: 1;
+}*/
+
+#sec2 .info .box:hover {
+  -moz-transform: scal(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#sec2 .info .box {
+  width: 570px;
+  height: 384px;
+  position: relative;
+  background: url(../img/index/sec2_bg_box.png) no-repeat top center;
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#sec2 .info .box a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
+
+#sec2 .info .box .ttls1 {
+  position: absolute;
+  left: 90px;
+  top: -41px;
+}
+
+#sec2 .info .box .ttls2 {
+  position: absolute;
+  left: 34px;
+  top: -28px;
+}
+
+#sec2 .info .box .icon {
+  position: absolute;
+  top: -80px;
+  right: 47px;
+}
+
+#sec2 .info .box .ttl1 {
+  padding: 53px 0 0 59px;
+}
+
+#sec2 .info .box .ttl2 {
+  padding: 41px 0 0 75px;
+}
+
+#sec2 .info .box .arrow {
+  position: absolute;
+  bottom: 22px;
+  right: 30px;
+}
+
+#sec2 .info .box .txt {
+  width: 428px;
+  padding: 17px 0 0 68px;
+}
+
+#sec2 .info .box1 {
+  margin-left: -71px;
+}
+
+#sec2 .info .box2 {
+  margin-right: -71px;
+}
+
+#sec3 {
+  padding-bottom: 457px;
+  position: relative;
+}
+
+#sec3:before {
+  content: '';
+  background: url(../img/index/sec3_bg1.png) no-repeat top center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 1000px;
+  background-size: cover;
+}
+
+#sec3 .boxinfo {
+  width: 505px;
+  padding-top: 44px;
+  margin-right: 42px;
+}
+
+#sec3 .boxinfo li {
+  float: left;
+}
+
+#sec3 h2 img {
+  margin-top: -12px;
+	z-index: 2;
+	position: relative;
+}
+
+#sec3 .txt {
+  text-align: center;
+  padding: 10px 0 23px;
+  position: relative;
+  z-index: 2;
+}
+
+#sec3 .bnr {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#sec3 .photo {
+  position: absolute;
+  top: 140px;
+  left: -372px;
+}
+
+#sec4 {
+  background: url(../img/index/sec4_bg.jpg) repeat top center;
+  padding-bottom: 33px;
+  position: relative;
+}
+
+#sec4:before {
+  content: url(../img/index/sec4_deco.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#sec4 h2 {
+  padding: 52px 0 18px;
+  text-align: center;
+}
+
+#sec4 .box {
+  background: url(../img/index/sec4_bg_box.png) repeat top center;
+  width: 878px;
+  height: 261px;
+  margin-left: 61px;
+}
+
+#sec4 .box .blk .photo {
+  padding: 43px 37px 0 80px;
+}
+
+#sec4 .box .blk dl {
+  color: #000;
+}
+
+#sec4 .box .blk dl .date {
+  padding-top: 64px;
+}
+
+#sec4 .box .blk dl .title {
+  width: 452px;
+  border-top: 2px solid #000;
+  padding-top: 16px;
+}
+.oshirase{
+width: 1000px;
+margin: 30px auto 30px auto;
+background-color: rgba(253,217,161,0.8);
+padding: 15px 0;
+color:#630;
+text-shadow: 0px 0px 5px rgba(146,119,83,0.5);
+}
+.oshirase .tit{
+text-align: center;
+font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+font-size: 22px;
+border-bottom: solid 1px #5B0809;
+padding-bottom: .4em;
+}
+.oshirase .txtx{
+text-align: center;
+padding-top: 10px;
+	font-size: 17px;
+	line-height: 30px;
+}
+.oshirase .txtx span{
+color:#940000;
+}
